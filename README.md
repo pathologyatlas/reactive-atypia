@@ -1,32 +1,13 @@
-# template
+# reactive-atypia
 
 
 
-**template for pathology atlas repositories**
-
-
-
-
-> see [make-html-WSI](https://github.com/pathologyatlas/make-html-WSI) for more information and [TODO](https://github.com/pathologyatlas/TODO) to add cases
+**reactive-atypia for pathology atlas repositories**
 
 
 
 
-> do not forget to activate github pages for the new repository
-
-
-
-
-```zsh
-
-vips dzsave HE.svs HE
-
-```
-
-
-
-
-```{r language template, echo=FALSE, include=TRUE}
+```{r language reactive-atypia, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
 
@@ -37,7 +18,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## TemplateTR
+## Reaktif Atipi, ülsere kolon polibi
 
 ```
 
@@ -46,7 +27,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## TemplateEN
+## Reactive atypia in an ulcerated colon polyp
 
 ```
 
@@ -55,14 +36,14 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-**templateTR**
+**Reaktif Atipi, ülsere kolon polibi**
 
 
-[https://pathologyatlas.github.io/template/HE.html](https://pathologyatlas.github.io/template/HE.html)
+[https://pathologyatlas.github.io/reactive-atypia/HE.html](https://pathologyatlas.github.io/reactive-atypia/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/template/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://pathologyatlas.github.io/reactive-atypia/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -71,14 +52,14 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{asis, echo = (language == "EN")}
 
-**templateEN**
+**Reactive atypia in an ulcerated colon polyp**
 
 
-[https://pathologyatlas.github.io/template/HE.html](https://pathologyatlas.github.io/template/HE.html)
+[https://pathologyatlas.github.io/reactive-atypia/HE.html](https://pathologyatlas.github.io/reactive-atypia/HE.html)
 
 See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/template/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://pathologyatlas.github.io/reactive-atypia/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
